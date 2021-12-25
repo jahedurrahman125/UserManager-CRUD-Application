@@ -8,7 +8,7 @@ import route from './router/route.js';
 const app = express();
 
 const PORT = 5000;
-const url = 'mongodb+srv://dev:dev@cluster0.ogo1o.mongodb.net/test';
+const url = 'localhost:27027/test';
 
 app.use(bodyParser.json({ extended: true }));
 app.use(bodyParser.urlencoded({ extended: true }));
